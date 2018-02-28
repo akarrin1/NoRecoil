@@ -1,10 +1,11 @@
 #include <windows.h>
+#include <iostream>
 #include "MouseInput.h"
+#include "Config.h"
 
 using namespace std;
 
 int main() {
-    Sleep(5000);
-    MouseInput().moveRelative(50, 50);
+    Config config("config.json");
     return 0;
 }

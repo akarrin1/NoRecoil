@@ -3,3 +3,4 @@
 .idea/
 /cmake-build-debugmingw/*
 !/cmake-build-debugmingw/NoRecoil.exe
+!/cmake-build-debugmingw/config.json
