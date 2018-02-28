@@ -26,7 +26,7 @@ private:
                     onKeyReleasedCallback();
                 }
             }
-            Sleep(1);
+            Sleep(5);
         }
     }
 

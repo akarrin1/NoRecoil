@@ -13,4 +13,4 @@ set(CMAKE_SYSTEM_NAME Windows)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(NoRecoil.exe main.cpp MouseInput.h DialogCreator.h NoRecoilConfig.h AsyncKeyEventListener.h NoRecoil.h)
+add_executable(NoRecoil.exe main.cpp MouseAndKeyboardInput.h DialogCreator.h NoRecoilConfig.h AsyncKeyEventListener.h NoRecoil.h)

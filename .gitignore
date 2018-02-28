@@ -1,6 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 /cmake-build-debug/
 .idea/
-/cmake-build-debugmingw/*
-!/cmake-build-debugmingw/NoRecoil.exe
-!/cmake-build-debugmingw/config.json
+/cmake-build-release-mingw/*
+!/cmake-build-release-mingw/NoRecoil.exe
+!/cmake-build-release-mingw/config.json
