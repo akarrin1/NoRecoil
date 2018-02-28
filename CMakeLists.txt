@@ -7,8 +7,10 @@ IF (Boost_FOUND)
     ADD_DEFINITIONS( "-DHAS_BOOST" )
 ENDIF()
 
+set(GCC_CXX_FLAGS ${GCC_CXX_FLAGS} "-m32 -lboost_thread-mt -lboost_system")
+
 set(CMAKE_SYSTEM_NAME Windows)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(NoRecoil.exe main.cpp MouseInput.h DialogCreator.h Config.h)
+add_executable(NoRecoil.exe main.cpp MouseInput.h DialogCreator.h NoRecoilConfig.h AsyncKeyEventListener.h NoRecoil.h)

@@ -1,11 +1,14 @@
 #include <windows.h>
 #include <iostream>
 #include "MouseInput.h"
-#include "Config.h"
+#include "NoRecoilConfig.h"
+#include "NoRecoil.h"
 
 using namespace std;
 
 int main() {
-    Config config("config.json");
+    NoRecoilConfig config("config.json");
+    MouseInput mouseInput;
+    NoRecoil(config, mouseInput).start();
     return 0;
 }

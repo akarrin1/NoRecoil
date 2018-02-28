@@ -5,6 +5,7 @@
       "name": "ak47",
       "shotCount": 14,
       "shotInterval": 140,
+      "activatingKeyCode": 112,
       "isAutomatic": true,
       "recoilCoords": [
         { "x": -40, "y": 65 },
@@ -26,6 +27,7 @@
       "name": "ak47",
       "shotCount": 14,
       "shotInterval": 140,
+      "activatingKeyCode": 113,
       "isAutomatic": true,
       "recoilCoords": [
         { "x": -40, "y": 65 },
